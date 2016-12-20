@@ -1,0 +1,24 @@
+html, body {
+  text-align: center;
+  background-color: #ccc;
+}
+
+svg {
+  border: .1rem solid black;
+  background-color: #f8f8f8;
+}
+
+.trendline {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+  /*shape-rendering: crispEdges;*/
+
+}
+
+.gridline path,
+.gridline line {
+  fill: none;
+  stroke: #e5e5e5;
+  shape-rendering: crispEdges;
+}
